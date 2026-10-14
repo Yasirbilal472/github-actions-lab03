@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Display Welcome Message
-        run: echo "Welcome to my GitHub Actions lab!"
+        run: echo "yasir !"
