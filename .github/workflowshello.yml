@@ -1,0 +1,11 @@
+name: first Github Actions Workflow
+
+on:
+  push:
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Display Message
+        run: echo "Welcome to my GitHub Actions lab!"
